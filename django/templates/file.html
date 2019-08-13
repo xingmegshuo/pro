@@ -1,0 +1,30 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>上传数据</title>-->
+<!--</head>-->
+<!--<body>-->
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container" style="padding-top: 350px">
+        <div class="row">
+
+            <div class="col-md-8 col-md-offset-2">
+                <div><h3 style="text-align: center"></h3></div>
+                <form method="post" enctype="multipart/form-data" action="{% url 'upload' %}"
+                      class="table table-bordered form-horizontal">
+                    {% csrf_token %}
+                    <input style="float: left" type="file" name="my_file">
+
+                    <input style="float:left;" type="submit" value="提交"/>
+                 </form>
+
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
+
+<!--</body>-->
+<!--</html>-->
