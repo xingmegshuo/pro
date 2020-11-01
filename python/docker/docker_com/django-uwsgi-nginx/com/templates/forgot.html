@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% block title %}忘记密码{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.youhutong.com/static/css/demo.css">
+    <script>
+        $(function () {
+            var email = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+            //注册账号输入
+            var send = 'none';
+            $('#em').focusout(function () {
+                var name = $('#em').val();
+                var m = document.getElementById('mes');
+
+                if (email.test(name) == false) {
+                    m.style.display = '';
+                } else {
+                    m.style.display = 'none';
+                    send = 1;
+                }
+            });
+            $('#sen').click(function () {
+                if (send == 1) {
+                    var p = document.getElementById('pic');
+                    pic.style.display = '';
+                    var value = {
+                        'email': $('#em').val()
+                    };
+                    $.ajax({
+                        type: 'post',
+                        url: '/send_email/',
+                        data: value,
+                        success: function (data) {
+                            p.style.display = 'none';
+                            if (data.code == 200) {
+                                alert('邮件发送成功!')
+                            } else if (data.code == 400) {
+                                alert(data.data)
+                            } else if (data.code == 500) {
+                                alert(data.data)
+
+                            }
+                        }
+                    })
+                }
+
+
+            });
+            $('#sub').click(function () {
+                if ($("#pass").val().length < 8 && $('#code').val().length < 5) {
+                    alert('检查输入,密码不小于8!')
+                } else {
+                    var value = {
+                        'code': $('#code').val(),
+                        'pass': $('#pass').val(),
+                        'user': $('#em').val(),
+                    };
+                    $.ajax({
+                        type: 'post',
+                        url: '/new_pass/',
+                        data: value,
+                        success: function (data) {
+                            if (data.code==200){
+                                window.open('/','_parent')
+                            }else {
+                                alert('验证码错误或过期!')
+                            }
+                        }
+                    })
+                }
+            })
+
+        })
+
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div style="margin-top: 300px">
+
+        <div>
+            <div>
+                <input id="em" style="width: 300px;height: 40px;line-height: 40px;font-size: 18px" type="text"
+                       placeholder="请输入您的邮箱地址">
+            </div>
+
+            <span id="mes" style="display: none;margin-top: 5px">邮箱格式不正确</span>
+
+            <div>
+                <button id="sen"
+                        style="width: 300px;height: 40px;font-size: 18px;background-color: #03a9f4;margin-top: 30px">
+                    发送重置密码邮件 <img id="pic" style="display: none;width: 20px;height: 20px;margin-left: 20px"
+                                  src="/Assets/images/loading.gif">
+                </button>
+            </div>
+
+            <input id="code" style="width: 300px;height: 40px;line-height: 40px;font-size: 18px;margin-top: 30px"
+                   type="text"
+                   placeholder="请输入验证码">
+
+
+            <div>
+                <input id="pass" style="width: 300px;height: 40px;line-height: 40px;font-size: 18px;margin-top: 30px"
+                       type="password"
+                       placeholder="请设置新密码">
+            </div>
+            <div>
+                <button id="sub"
+                        style="width: 300px;height: 40px;font-size: 18px;background-color: #03a9f4;margin-top: 30px">
+                    提交
+                </button>
+            </div>
+            <div></div>
+
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <hr/>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var box1 = document.getElementById("box1");
+            var wid = box1.style.width.split('p')[0];
+            box1.onmousedown = function (event) {
+                /*再次点击时使得图标任然在那个位置，鼠标可以点击到图标上*/
+                var ol = event.clientX - box1.offsetLeft;
+                var other = document.getElementsByClassName('box_other');
+                /*鼠标点击*/
+                document.onmousemove = function (event) {
+                    var left = event.clientX - ol;
+                    if (left > 0) {
+                        box1.style.marginLeft = 0 + "px";/*赋值*/
+                    } else if (left < -495) {
+                        box1.style.marginLeft = -480 + "px";/*赋值*/
+                    } else {
+                        {#console.log(left);#}
+                        box1.style.marginLeft = left + 'px';
+                        var value = Math.abs(left) - 380;
+                        other[0].style.marginLeft = -100 - value + 'px';
+
+                        other[1].style.marginLeft = 1115 - value + 'px';
+                        {#other[i].style.marginLeft.split('p')[0] + left + 'px';#}
+
+                        {#console.log(other[i].style.marginLeft.split('p')[0]+left)#}
+                    }
+                };
+                /*鼠标松开*/
+                document.onmouseup = function (event) {
+                    document.onmousemove = null;
+                    document.onmouseup = null;
+                }
+            }
+        }
+    </script>
+
+</head>
+<body style="margin: 0;overflow-y: auto;overflow-x: hidden">
+<div id="box1"
+     style="background:url(/Assets/images/网页背景.jpg);background-size:2400px 960px ;height: 960px;width: 2400px;margin-left: -20%;position: absolute;top: 0px">
+    <div
+         style="position: absolute;background: url(/Assets/images/床.png);background-size: 900px 600px;height: 600px;width: 900px;margin-top: 340px;left: 0px;right: 0px;margin-left: 1500px">
+    </div>
+    <div
+     style="position: absolute;background: url(/Assets/images/大沙发.png);background-size: 700px 300px;height: 300px;width: 700px;margin-left:280px;margin-top: 200px">
+</div>
+</div>
+
+
+
+</body>
+</html>

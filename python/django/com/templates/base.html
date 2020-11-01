@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>{% block title %}萌果果官网{% endblock %}</title>
+    <link rel="icon" href="/Assets/images/logo.ico" type="image/x-icon">
+    <link href="/Assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/Assets/css/reset.css"/>
+    <script type="text/javascript" src="/Assets/js/jquery-1.8.3.min.js"></script>
+    {% if user.username %}
+
+        <script type="text/javascript" src="/Assets/js/js_z.js"></script>
+
+    {% else %}
+        <script type="text/javascript" src="/Assets/js/index.js"></script>
+
+    {% endif %}
+    <style type="text/css">
+        html, body {
+            height: 100%; /*html和body的高度都为100%*/
+            margin: 0;
+            padding: 0
+        }
+
+        .main {
+            height: 100%; /*整体高度100%*/
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+    {% block head %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="/Assets/plugins/FlexSlider/flexslider.css">
+    <script type="text/javascript" src="/Assets/plugins/FlexSlider/jquery.flexslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Assets/css/thems.css">
+    <link rel="stylesheet" type="text/css" href="/Assets/css/responsive.css">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/Assets/css/thems.css">
+    <link rel="stylesheet" type="text/css" href="/Assets/css/reset.css"/>
+    {#    <script language="javascript">#}
+    {#        $(window).load(function () {#}
+    {#            $('.flexslider').flexslider({#}
+    {#                animation: "slide"#}
+    {#            });#}
+    {#            $('.s_a').click(function () {#}
+    {#                $('html,body').animate({scrollTop: $('.a').offset().top}, 800);#}
+    {#            });#}
+    {#            $('.s_b').click(function () {#}
+    {#                $('html,body').animate({scrollTop: $('.b').offset().top}, 800);#}
+    {#            });#}
+    {#            $('.s_c').click(function () {#}
+    {#                $('html,body').animate({scrollTop: $('.c').offset().top}, 800);#}
+    {#            });#}
+    {#            $('.s_d').click(function () {#}
+    {#                $('html,body').animate({scrollTop: $('.d').offset().top}, 800);#}
+    {#            });#}
+    {#            $('.s_e').click(function () {#}
+    {#                $('html,body').animate({scrollTop: $('.e').offset().top}, 800);#}
+    {#            });#}
+    {#            $('.s_f').click(function () {#}
+    {#                $('html,body').animate({scrollTop: $('.f').offset().top}, 800);#}
+    {#            });#}
+    {#        });#}
+    {#        $(window).scroll(function () {#}
+    {#            if ($(window).scrollTop() > 0) {#}
+    {#                $('.header').addClass('h_fix');#}
+    {#            } else {#}
+    {#                $('.header').removeClass('h_fix');#}
+    {#            }#}
+    {#            if ($(window).scrollTop() > 3500) {#}
+    {#                $('.m_bg').addClass('m_bg_a');#}
+    {#            } else {#}
+    {#                $('.m_bg').removeClass('m_bg_a');#}
+    {#            }#}
+    {#        });#}
+    {#    </script>#}
+</head>
+
+<body>
+<!--头部-->
+{% csrf_token %}
+<div class="m_bg">&nbsp;</div>
+<div class="main" style="overflow-y: auto;overflow-x: hidden">
+    <div class="header" style="position: fixed;z-index: 9999;top:0px;">
+        <div class="head clearfix" style="width: 80%;float: right">
+            <div class="logo" style="margin:auto;width: 12%;margin-top: 8px "><a href="">
+                <img src="/Assets/images/logo.png" alt="为科"/></a></div>
+            <div class="nav_m" style="display: inline-block;width: 65%;margin:auto ">
+                <div class="n_icon">导航栏</div>
+                <ul class="nav clearfix" style="width: 100%;">
+                    {#                    <li><a href="javascript:;" class="s_a">首页</a></li>#}
+                    <li style="margin-left: 6%;"><a style="font-size: 18px;font-weight: bold" href="javascript:;"
+                                                    class="s_b">游戏中心</a></li>
+                    <li style="margin-left: 6%"><a style="font-weight: bold;font-size: 18px" href="javascript:;"
+                                                   class="s_c">合作伙伴</a></li>
+                    {#                    <li><a href="javascript:;" class="s_d">应用案例</a></li>#}
+                    <li style="margin-left: 6%;"><a style="font-size: 18px;font-weight: bold" href="javascript:;"
+                                                    class="s_e">商务合作</a></li>
+                    {#                    <li><a href="javascript:;" class="s_f">新闻中心</a></li>#}
+                    <li style="margin-left: 6%;"><a style="font-weight: bold;font-size: 18px" href="javascript:;"
+                                                    class="s_g">关于我们</a></li>
+                </ul>
+            </div>
+
+            <form class="search" action="/search/" method="get"
+                  style="float: left;display: inline;margin-top: 15px;height: 38px;width: 12%;">
+                <input name="content" type="text" style="height: 35px;margin-left: 8px;margin-top: -3px" value="请输入搜索内容"
+                       autocomplete="off" onfocus="if (value =='请输入搜索内容'){value =''}"
+                       onblur="if (value ==''){value='请输入搜索内容'}">
+                <input name="" type="submit" value="" style="height: 35px;">
+            </form>
+
+            <div class="lang"
+                 style="float: right;height: 100%;margin-top: 0;width:100px">
+                <div class="lang_m"
+                     style="height: 100%;width: 100%">
+                    <span style="width: 80%;height: 100%;" id="show_log">
+                        <img
+                                {% if user.img %}
+                                    src="{{ MEDIA_URL }}{{ user.img }}" alt="{{ user.name }}"
+                                {% else %}
+                                    src="/Assets/user.png"  alt="unkonw"
+                                {% endif %}
+                                    style="width: 80%;height: 90%;display: flex;border-radius: 50%;align-items: center;  justify-content: center; overflow: hidden;">
+
+                    </span>
+                    <em id="show" style="margin-top: 30%;padding-left: 25%">
+                        &nbsp;</em>
+                </div>
+                <ul style="margin-top: 45px;opacity: 60%;width: 80%">
+                    <li style="margin-top: 5px">
+                        <a href="/" style="font-weight: bold">{{ user.name }}</a>
+                    </li>
+                    <hr style="margin: 0px">
+
+                    <li style="margin-top: 5px">
+                        <a href="/userInfo/" style="font-weight: bold">个人信息</a>
+                    </li>
+                    <hr style="margin: 0px">
+
+                    <li style="margin-top: 5px">
+                        <a href="/logout/" style="font-weight: bold;">退出登录</a>
+                    </li>
+                    <hr style="margin: 0px">
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!--头部-->
+
+    <!--幻灯片-->
+    {% block content %}
+    {% endblock %}
+
+
+    <div class="materialContainer" id="log" style="z-index:99;opacity: 90%;display: none;position: fixed;top:400px;">
+        <div class="box">
+            <div class="title">登录</div>
+            <form method="post" onsubmit="return false;">
+
+                <div class="input">
+                    <label for="name">账号</label>
+                    <input type="text" name="name" id="name" style="text-align: center;margin-bottom: 5px"
+                           autocomplete="off">
+                    <span class="spin"></span>
+                    <span id="l_u" style="text-align: center;width: 100%;color: red;font-size: 18px;"></span>
+
+                </div>
+
+
+                <div class="input">
+                    <label for="pass">密码</label>
+                    <input type="password" name="pass" id="pass" style="text-align: center;margin-bottom: 5px">
+                    <span id="l_p"
+                          style="text-align: center;display:block;width: 100%;color: red;font-size: 18px;"></span>
+
+                </div>
+
+                <div class="button login">
+                    <button id="login" style="margin-bottom: 5px">
+                        <span>登录</span>
+                        <i class="fa fa-check"></i>
+                    </button>
+
+                </div>
+                <span id="l_mes" class="pass-forgot"
+                      style="display:block;width: 100%;color: red;font-size: 18px;margin-top: -20px"></span>
+            </form>
+
+            <a href="/forgot/" class="pass-forgot">忘记密码？</a>
+        </div>
+
+        <div class="overbox">
+            <div class="material-button alt-2">
+                <span class="shape"></span>
+            </div>
+            <div class="title" style="text-align: center">注册</div>
+            <div class="input">
+                <label for="regname">账号:邮箱/手机号</label>
+                <input type="text" name="regname" id="regname" style="text-align: center" autocomplete="off">
+                <span class="spin"></span>
+                <span id="r_u"
+                      style="text-align: center;display:block;margin-top:70px;color: black;font-size: 18px;"></span>
+            </div>
+
+
+            <div class="input">
+                <label for="regpass">密码</label>
+                <input type="password" name="regpass" id="regpass" style="text-align: center">
+                <span class="spin"></span>
+                <span id="r_p"
+                      style="text-align: center;display:block;margin-top:70px;color: black;font-size: 18px;"></span>
+
+            </div>
+
+            <div class="input">
+                <label for="reregpass">确认密码</label>
+                <input type="password" name="reregpass" id="reregpass" style="text-align: center">
+                <span class="spin"></span>
+                <span id="r_pp"
+                      style="text-align: center;display:block;margin-top:70px;color: black;font-size: 18px;"></span>
+
+            </div>
+
+            <div class="button" style="margin-bottom:0;margin-top: 20px ">
+                <button id="register">
+                    <span>注册</span>
+                </button>
+                <span id="r_mes"
+                      style="display: block;width:360px;margin-top:60px;position: fixed;z-index: 99999;text-align:center;color: black;font-size: 18px;"></span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="i_mg">
+        <footer>
+            <div class="i_name">
+                <em>联系</em>我们
+                <p>CONTACT US</p>
+            </div>
+            <div class="i_mgm clearfix" style="width: 100%; margin-left: 20%">
+                <ul class="clearfix">
+                    <li class="one">
+                        <img src="/Assets/images/icon5.png" alt=""/>
+                        <p>0755-26827630</p>
+                    </li>
+                    <li>
+                        <img src="/Assets/images/icon6.png" alt=""/>
+                        <p>0755-26827630-821</p>
+                    </li>
+                    <li>
+                        <img src="/Assets/images/icon7.png" alt=""/>
+                        <p>深圳市南山区高新技术产业园南区中国地质大学四楼C区</p>
+                    </li>
+                </ul>
+                <div class="space_hx">&nbsp;</div>
+
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+
+
+    </script>
+
+    <div class="foot">
+        版权所有 深圳市为科科技有限公司 粤ICP备123459789-1号
+    </div>
+
+</div>
+
+</body>
+</html>

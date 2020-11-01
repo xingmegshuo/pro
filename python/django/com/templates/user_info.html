@@ -1,0 +1,496 @@
+{% extends 'base.html' %}
+{% block title %}用户信息{% endblock %}
+{% block head %}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet"/>#}
+    {#    <link href="/Assets/css/font-awesome.css" rel="stylesheet"/>#}
+    <link href="/Assets/css/adminia.css" rel="stylesheet"/>
+    {#    <link href="/Assets/css/adminia-responsive.css" rel="stylesheet"/>#}
+    {#    <link href="/Assets/css/plans.css" rel="stylesheet"/>#}
+    <script src="/Assets/js/bootstrap.js"></script>
+    <style type="text/css">
+        .control-label {
+            font-size: 20px;
+        }
+
+        .checkbox {
+            text-align: center;
+            margin-left: 200px;
+        }
+
+        .input-medium, .input-large {
+            line-height: 34px;
+            width: 400px;
+            text-align: center;
+            font-size: 16px;
+            height: 30px;
+            margin-top: 10px;
+        }
+
+        button {
+            width: 80px;
+            height: 50px;
+        }
+
+        {#.lang hr {#}
+        {#    margin-top: 25px;#}
+        {##}
+        {#.lang li {#}
+        {#    margin-top: 0px;#}
+        {#    height: 28px;#}
+        {#    margin-bottom: -20px;#}
+
+
+    </style>
+    <script>
+        $(function () {
+                var m = true;
+                var w = false;
+                var j = true;
+                var k = false
+
+                $("#man").click(function () {
+                    if (m == true && w == false) {
+                        m = false;
+                    } else {
+                        m = true;
+                        $("#woman").prop('checked', false)
+                    }
+                });
+                $("#woman").click(function () {
+                    if (w == true && m == false) {
+                        w = false
+                    } else {
+                        w = true;
+                        $("#man").prop('checked', false)
+                    }
+                });
+                $("#sub").click(function () {
+                    if (j == true && k == false) {
+                        j = false;
+                    } else {
+                        j = true;
+                        $("#no_sub").prop('checked', false)
+                    }
+                });
+                $("#no_sub").click(function () {
+                    if (k == true && j == false) {
+                        k = false
+                    } else {
+                        k = true;
+                        $("#sub").prop('checked', false)
+                    }
+                });
+                $('#change').click(function () {
+                    var value;
+                    if ($('#man').is(':checked')) {
+                        value = {
+                            'name': $('#lastname').val(),
+                            'email': $('#email').val(),
+                            'phone': $('#phone').val(),
+                            'sex': '男'
+                        };
+                        $.ajax({
+                            type: 'post',
+                            url: '/userInfo/',
+                            data: value,
+                        })
+                    } else {
+                        value = {
+                            'name': $('#lastname').val(),
+                            'email': $('#email').val(),
+                            'phone': $('#phone').val(),
+                            'sex': '女'
+                        };
+                        $.ajax({
+                            type: 'post',
+                            url: '/userInfo/',
+                            data: value,
+                        })
+                    }
+                });
+                $('#change_pass').click(function () {
+                    var value;
+                    if ($('#sub').is(':checked')) {
+                        value = {
+                            'password': $('#password1').val(),
+                            'new_password': $('#password2').val(),
+                            'sub': 'true'
+                        };
+                        $.ajax({
+                            type: 'post',
+                            url: '/change_pass/',
+                            data: value,
+                            success: function (data) {
+                                alert(data.mes);
+                                setTimeout("window.location.reload()", 3000);
+                                window.open(data.data, '_parent');
+
+                            }
+                        })
+                    } else {
+                        value = {
+                            'password': $('#password1').val(),
+                            'new_password': $('#password2').val(),
+                            'sub': 'false',
+                        };
+                        $.ajax({
+                            type: 'post',
+                            url: '/change_pass/',
+                            data: value,
+                            timeout: 3000,
+                            success: function (data) {
+                                alert(data.mes);
+                                setTimeout("window.location.reload()", 3000);
+
+                                window.open(data.data, '_parent');
+                            },
+
+                        })
+                    }
+                });
+                $('#chang_img').click(function () {
+                    var f = document.getElementById('myinput').files[0];
+                    var a = new FormData;
+                    a.append('img', f);
+                    a.append("csrfmiddlewaretoken", $("[name='csrfmiddlewaretoken']").val());
+
+                    $.ajax({
+                        url: "/upload/",
+                        type: "post",
+                        data: a,
+                        processData: false,
+                        contentType: false,
+                        success: function (res) {
+                            alert(res.mes);
+                            window.open(res.data, '_parent');
+                        },
+                        dataType: "json"
+                    })
+                });
+            },
+        )
+
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+{% endblock %}
+{% block content %}
+
+    <div id="content" style="margin-top: 100px;opacity: 80%">
+        <div class="container">
+            <div class="row">
+                <div class="span3">
+                    <div class="account-container">
+                        <div class="account-avatar">
+                            <img
+                                    {% if user.img %}
+                                        src="{{ MEDIA_URL }}{{ user.img }}" alt="{{ user.name }}"
+                                    {% else %}
+                                        src="/Assets/user.png" alt="unknow"
+                                    {% endif %}
+                                        alt="{{ user.name }}"
+                                        class="thumbnail" id="img"
+                                        style="display: flex;border-radius: 50%;align-items: center;
+                            justify-content: center; overflow: hidden;"/>
+                            <script>
+
+                                function change_pic() {
+                                    var reader = new FileReader();
+                                    var f = document.getElementById('myinput').files[0];
+                                    var img_url = window.URL.createObjectURL(f);
+                                    $('#img').attr('src', img_url);
+                                }
+                            </script>
+                            <input
+                                    style="width: 40px;height: 40px;margin-top: -80px;opacity: 0;margin-left: 5px"
+                                    type="file" onchange="change_pic(this)" accept="image/*" id="myinput">
+
+                            <button style="width: 60px;height: 25px;margin-top: 20px" id="chang_img">
+                                更改头像
+                            </button>
+                        </div> <!-- /account-avatar -->
+                        <div class="account-details" style="margin-left: 20%">
+                            <span class="account-name" style="margin-top: 20px">
+                                {% if user.name %}
+                                    {{ user.name }}
+                                {% else %}
+                                    未知
+                                {% endif %}
+                            </span>
+                            <span class="account-actions">
+							<a href="javascript:;">资料</a> |
+							<a href="javascript:;">编辑设置</a>
+						</span>
+                        </div> <!-- /account-details -->
+                    </div> <!-- /account-container -->
+                    <hr/>
+                    <ul id="main-nav" class="nav nav-tabs nav-stacked">
+
+                        <li class="active">
+                            <a href="">
+                                <i class="icon-user"></i>
+                                用户信息
+                            </a>
+                        </li>
+                    </ul>
+                    <hr/>
+
+                    <div class="sidebar-extra">
+                    </div> <!-- .sidebar-extra -->
+                    <br/>
+
+                </div> <!-- /span3 -->
+                <div class="span9" style="font-size: 24px">
+                    <h1 class="page-title" style="text-align: left">
+                        <i class="icon-th-large"></i>
+                        用户信息
+                    </h1>
+                    <div class="row">
+                        <div class="span9">
+                            <div class="widget">
+                                <div class="widget-header">
+                                    <h3>基本信息</h3>
+                                </div> <!-- /widget-header -->
+                                <div class="widget-content">
+                                    <div class="tabbable">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active">
+                                                <a href="#1" data-toggle="tab">资料</a>
+                                            </li>
+                                            <li><a href="#2" data-toggle="tab">设置</a></li>
+                                        </ul>
+                                        <br/>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="1">
+                                                <form id="edit-profile" class="form-horizontal" style="font-size: 22px">
+                                                    <fieldset>
+
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="username">用户账号：</label>
+                                                            <div class="controls">
+                                                                <input type="text" class="input-medium disabled"
+                                                                       id="username"
+                                                                       value="{{ user.username }}" disabled=""/>
+                                                            </div> <!-- /controls -->
+                                                        </div> <!-- /control-group -->
+
+
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="lastname">用户昵称：</label>
+                                                            <div class="controls">
+                                                                <input type="text" class="input-medium" id="lastname"
+                                                                       value="{{ user.name }}" placeholder="请输入创建的昵称">
+                                                            </div> <!-- /controls -->
+                                                        </div> <!-- /control-group -->
+
+
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="email">用户邮箱：</label>
+                                                            <div class="controls">
+                                                                <input type="text" class="input-large" id="email"
+                                                                       value="{{ user.email }}" placeholder="请输入邮箱">
+                                                            </div> <!-- /controls -->
+                                                        </div> <!-- /control-group -->
+
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="email">用户电话：</label>
+                                                            <div class="controls">
+                                                                <input type="text" class="input-large" id="phone"
+                                                                       value="{{ user.phone }}" placeholder="请输入电话号码">
+                                                            </div> <!-- /controls -->
+                                                        </div> <!-- /control-group -->
+                                                        <div class="control-group">
+                                                            <label class="control-label"
+                                                                   for="accountadvanced">用户性别：</label>
+                                                            {% if user.sex != None %}
+                                                                <div class="controls">
+                                                                    {% if user.sex == True %}
+                                                                        <label class="checkbox">
+                                                                            <input type="checkbox" name="chec"
+                                                                                   value="option1" checked="checked"
+                                                                                   disabled="disabled"
+                                                                                   id="accountadvanced"/>
+                                                                            男
+                                                                        </label>
+                                                                        <label class="checkbox">
+                                                                            <input type="checkbox" name="chec"
+                                                                                   disabled="disabled"
+                                                                                   value="option2"/>
+                                                                            女
+                                                                        </label>
+                                                                    {% else %}
+                                                                        <label class="checkbox">
+                                                                            <input type="checkbox" name="chec"
+                                                                                   value="option1" disabled="disabled"
+                                                                                   id="accountadvanced"/>
+                                                                            男
+                                                                        </label>
+                                                                        <label class="checkbox">
+                                                                            <input type="checkbox" name="chec"
+                                                                                   checked="checked" disabled="disabled"
+                                                                                   value="option2"/>
+                                                                            女
+                                                                        </label>
+                                                                    {% endif %}
+                                                                </div>
+                                                            {% else %}
+                                                                <div class="controls">
+                                                                    <label class="checkbox">
+                                                                        <input type="checkbox" name="chec" id="man"
+                                                                               value="option1" checked="checked"
+                                                                               id="accountadvanced"/>
+                                                                        男
+                                                                    </label>
+                                                                    <label class="checkbox">
+                                                                        <input type="checkbox" name="chec"
+                                                                               id="woman"
+                                                                               value="option2"/>
+                                                                        女
+                                                                    </label>
+                                                                </div>
+                                                                <p style="font-size: 18px">性别只可修改一次!</p>
+                                                            {% endif %}
+                                                        </div>
+                                                        <br/>
+
+                                                        <div class="form-actions"
+                                                             style="padding-left:80px;padding-right:80px;line-height: 30px">
+                                                            <button type="button" class="btn btn-primary" id="change"
+                                                                    style="float: left">保存
+                                                            </button>
+                                                            <button class="btn" style="float: right;"><a href="/">取消</a>
+                                                            </button>
+                                                        </div> <!-- /form-actions -->
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+
+                                            <div class="tab-pane" id="2">
+                                                <form id="edit-profile2" class="form-horizontal">
+                                                    <fieldset>
+
+                                                        {#     #}
+                                                        {#                                                        <div class="control-group">#}
+                                                        {#                                                            <label class="control-label"#}
+                                                        {#                                                                   for="accountusername">账号名称：</label>#}
+                                                        {#                                                            <div class="controls">#}
+                                                        {#                                                                <input type="text" class="input-large"#}
+                                                        {#                                                                       id="accountusername"#}
+                                                        {#                                                                       value="admin@js-css.cn"/>#}
+                                                        {#                                                            </div>#}
+                                                        {#                                                        </div>#}
+
+
+                                                        <div class="control-group">
+                                                            <label class="control-label"
+                                                                   for="accountadvanced">是否订阅：</label>
+                                                            <div class="controls" style="margin-left: 100px">
+
+                                                                {% if user.is_subscribe %}
+
+                                                                    <label class="checkbox">
+                                                                        <input type="checkbox" id="sub"
+                                                                               value="option1"
+                                                                                {% if user.is_subscribe == True %}
+                                                                               checked="checked"{% endif %}
+                                                                               id="accountadvanced"/>
+                                                                        订阅推送,有活动通知!
+                                                                    </label>
+                                                                    <label class="checkbox">
+                                                                        <input type="checkbox" id="no_sub"
+                                                                               value="option2"/>
+                                                                        不订阅推送,无法接收活动通知!
+                                                                    </label>
+
+                                                                {% else %}
+                                                                    <label class="checkbox">
+                                                                        <input type="checkbox" id="sub"
+                                                                               value="option1"
+                                                                               id="accountadvanced"/>
+                                                                        订阅推送,有活动通知!
+                                                                    </label>
+                                                                    <label class="checkbox">
+                                                                        <input type="checkbox" id="no_sub"
+                                                                               checked="checked"
+                                                                               value="option2"/>
+                                                                        不订阅推送,无法接收活动通知!
+                                                                    </label>
+                                                                {% endif %}
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="password1">当前密码：</label>
+                                                            <div class="controls">
+                                                                <input type="password" class="input-medium"
+                                                                       id="password1"
+                                                                       value="" placeholder="请输入当前密码">
+                                                            </div> <!-- /controls -->
+                                                        </div> <!-- /control-group -->
+
+
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="password2">修改密码：</label>
+                                                            <div class="controls">
+                                                                <input type="password" class="input-medium"
+                                                                       id="password2"
+                                                                       value="" placeholder="设置新密码">
+                                                            </div> <!-- /controls -->
+                                                        </div> <!-- /control-group -->
+                                                        <br/>
+
+                                                        <div class="form-actions"
+                                                             style="padding-left:80px;padding-right:80px;line-height: 30px">
+                                                            <button type="button" class="btn btn-primary"
+                                                                    id="change_pass"
+                                                                    style="float: left">保存
+                                                            </button>
+                                                            <button class="btn" style="float: right;"><a href="/">取消</a>
+                                                            </button>
+                                                        </div> <!-- /form-actions -->
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div> <!-- /widget-content -->
+
+                            </div> <!-- /widget -->,
+
+                        </div> <!-- /span9 -->
+
+                    </div> <!-- /row -->
+
+
+                </div> <!-- /span9 -->
+
+
+            </div> <!-- /row -->
+
+        </div> <!-- /container -->
+
+    </div> <!-- /content -->
+
+
+    <div id="footer">
+
+        <div class="container">
+            <hr/>
+        </div> <!-- /container -->
+
+    </div> <!-- /footer -->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+
+{% endblock %}

@@ -1,0 +1,455 @@
+{% extends 'base.html' %}
+{% block title %}{{ game.name }}-游戏详情{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="/Assets/css/video-js.min.css">
+    {#    <script src="/Assets/js/video.min.js"></script>#}
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        p {
+            word-wrap: break-word;
+        }
+
+
+    </style>
+    <script>
+        function load_mes(page, game) {
+            var value = {
+                'page': page,
+                'game': game,
+                "csrfmiddlewaretoken": $("[name='csrfmiddlewaretoken']").val()
+            };
+            $.ajax({
+                type: 'get',
+                url: '/get_more/',
+                data: value,
+                success: function (data) {
+                    if (data.code == '200' && data.data != 'None') {
+                        var num = Object.keys(data.data).reverse();
+                        console.log(data.data);
+                        $.each(data.data, function (key, value) {
+                            var user_img;
+                            var name;
+                            var score;
+                            var content;
+                            var m_time;
+
+                            $.each(value, function (k, v) {
+                                if (k == 'user_img') {
+                                    user_img = v
+                                }
+                                if (k == 'user_name') {
+                                    name = v
+                                }
+                                if (k == 'score') {
+                                    score = v
+                                }
+                                if (k == 'content') {
+                                    content = v
+                                }
+                                if (k == 'm_time') {
+                                    m_time = v;
+                                }
+                            });
+                            var d = " <div style='width: 90%;margin-left: auto;margin-right: auto;margin-top: 30px;'><div style='border: solid 1px;;background-color: rgb(244,244,244);border-color: rgb(228,228,228); '><div style='float: left;width: 25%;'><span style='width: 60px;height: 60px'><img src='" + "/media/" + user_img + "'style='margin-top: 50px;width: 60px;height:60px;border-radius: 50%;overflow: hidden '></span><h4 style='margin-top: 10px'>" + name + "</h4></div><div style='background-color:white;float:right;width:75%;border: solid 1px;border-color: rgb(228,228,228);border-radius: 4px;text-align: left'><span style='color: red;font-size: 24px;margin-left: 50px'>" + score + "</span>分<hr style='width: 80%;margin-left: auto;margin-right: auto'><span style='margin-left: 50px'>" + m_time + "</span><p id='content'style='white-space:pre-wrap;width: 300px;line-height: 14px;margin-left:50px ;margin-right: auto;padding-top: 50px;margin-bottom: 50px;text-align: left;'>" + content + "</p><br style='clear: both;'></div><br style='clear: both'></div></div>";
+                            $('#mes').append(d);
+
+
+                        })
+
+                    } else if (data.code == '300') {
+                        $('#more_com').html('没有内容了!');
+                    } else if (data.code == '400') {
+                        var d = "<span>暂时还没有评论</span>";
+                        $('#mes').append(d);
+                    } else {
+                        $('#more_com').html('错误!')
+                    }
+                }
+                ,
+            })
+        }
+
+        $(function () {
+            var p = document.getElementById('content');
+            var btn = document.getElementById('more');
+            var value = document.getElementById('hid_value');
+            var video = document.getElementById("my-video");
+            var m = document.getElementById('m');
+            var im = document.getElementById('myCarousel');
+            var mov = document.getElementById('mov');
+            var pic = document.getElementById('pic');
+            video.play();
+            $('#mov').click(function () {
+                video.play();
+                m.style.display = '';
+                im.style.display = 'none';
+                mov.style.backgroundColor = 'whitesmoke';
+                mov.style.color = 'black';
+                pic.style.backgroundColor = '#2b333f';
+                pic.style.color = 'white';
+            });
+            $('#pic').click(function () {
+                video.pause();
+                m.style.display = 'none';
+                im.style.display = '';
+                mov.style.backgroundColor = '#2b333f';
+                mov.style.color = 'white';
+                pic.style.backgroundColor = 'whitesmoke';
+                pic.style.color = 'black';
+            });
+            {#alert('''{{ game.info }}''');#}
+            var page = 1;
+            load_mes(1, '{{ game.id }}');
+            $('#z').click(function () {
+                var cc = p.innerHTML;
+                if (btn.innerHTML == '展开') {
+                    btn.innerHTML = '收起';
+                    p.innerHTML = value.innerHTML;
+                    value.innerHTML = cc
+                } else {
+                    btn.innerHTML = '展开';
+                    p.innerHTML = value.innerHTML;
+                    value.innerHTML = cc
+                }
+            });
+            $('#get_more').click(function () {
+                if ($('#more_com').html() == '加载更多') {
+                    load_mes(page + 1, '{{ game.id }}');
+                    page = page + 1;
+                }
+            });
+            $('#check_div').find('input[type=checkbox]').bind('click', function () {
+                var id = $(this).attr("id");
+
+                //当前的checkbox是否选中
+                if (this.checked) {
+                    //除当前的checkbox其他的都不选中
+                    $("#check_div").find('input[type=checkbox]').not(this).prop("checked", false);
+                }
+            });
+            $('#change').click(function () {
+                var che = $('#check_div').find('input[type=checkbox]');
+                if ($('#comm').val().length > 1) {
+                    var value;
+                    $.each(che, function () {
+                        if (this.checked) {
+                            value = {
+                                'game': {{ game.id }},
+                                'score': this.value,
+                                'content': $('#comm').val(),
+                                "csrfmiddlewaretoken": $("[name='csrfmiddlewaretoken']").val()
+                            };
+                        }
+
+                    });
+                    $.ajax({
+                        type: 'post',
+                        url: '/save_mes/',
+                        data: value,
+                        success: function (data) {
+                            window.open('/deatil' + '/{{ game.id }}/', '_parent');
+                        }
+                    })
+
+                } else {
+                    alert('评论内容为空!');
+                }
+
+            });
+            $('#like').click(function () {
+                var user = '{{ user }}'.toString();
+                if (user.length > 0) {
+                    var value = {
+                        'game':{{ game.id }}
+                    };
+                    $.ajax({
+                        type: 'post',
+                        url: '/like/',
+                        data: value,
+                        success: function (data) {
+                            console.log(data.data);
+                            window.open(data.data, '_parent')
+                        }
+                    })
+                } else {
+                    alert('清先登录!')
+                }
+            });
+            $('#unlinke').click(function () {
+                var value = {
+                    'game':{{ game.id }}
+                };
+                $.ajax({
+                    type: 'post',
+                    url: '/unlike/',
+                    data: value,
+                    success: function (data) {
+                        window.open(data.data, '_parent')
+
+                    }
+                })
+            })
+        });
+    </script>
+{% endblock %}
+{% block content %}
+    <p style="display: none" id="hid_value">{{ game.info }}</p>
+    <div style="margin-top: 100px;float: right;width: 80%;white-space:nowrap;">
+        <div style="width: 800px;height: 200px;">
+            <img src=" {{ MEDIA_URL }}{{ game.img }}" style="width: 20%;height: 80%;float: left">
+            <h2 style="font-weight: bold;text-align: left;line-height: 200px;margin-left: 300px">{{ game.name }}-游戏详情:</h2>
+        </div>
+        <div style="overflow: hidden;width: 1000px">
+            <div style="width:650px;height: 450px;float: left">
+                {% if video %}
+                    <div style="height: 30px">
+                        <div id="mov"
+                             style="background-color: whitesmoke;width: 10%;float: left;height: 30px;line-height: 30px">
+                            <span role="button">动画</span>
+                        </div>
+                        <div id="pic"
+                             style="float: left;width: 10%;height: 30px;line-height: 30px;background-color: #1f6377;color: white">
+                            <span role="button">图片</span>
+                        </div>
+                    </div>
+                    <div id="m">
+                        <video id="my-video" class="video-js " controls preload="auto" width="650" height="450"
+                               poster="/Assets/54542.jpg" data-setup="{}" loop>
+                            <source src="{{ MEDIA_URL }}{{ video.gif }}" type="video/mp4">
+                        </video>
+
+                    </div>
+                    <div id="myCarousel" class="carousel slide"
+                         style="background-color: #2b333f;margin: 0;width: 100%;height: 419px;display: none;margin-top: 1px">
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner" style="width: 100%;height: 100%">
+                            {% for i in imgs %}
+                                {% if forloop.first %}
+                                    <div class="item active" style="height: 100%">
+                                        <img src="{{ MEDIA_URL }}{{ i.img }}" style="width: 100%;height: 100%"
+                                             alt="First slide">
+                                    </div>
+                                {% else %}
+                                    <div class="item" style="height: 100%">
+                                        <img src="{{ MEDIA_URL }}{{ i.img }}" style="width: 100%;height: 100%"
+                                             alt="First slide">
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <a style="margin-top: 180px;width: 40px;height: 70px"
+                           class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"
+                          style="margin-left: -15px;margin-top: -15px"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a style="margin-top: 180px;width: 40px;height: 70px"
+                           class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"
+                          style="margin-right: -15px;margin-top: -15px"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                {% else %}
+                    <div id="myCarousel" class="carousel slide"
+                         style="background-color: #2b333f;margin: 0;width: 100%;height: 100%;">
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner" style="width: 100%;height: 100%">
+                            {% for i in imgs %}
+                                {% if forloop.first %}
+                                    <div class="item active" style="height: 100%">
+                                        <img src="{{ MEDIA_URL }}{{ i.img }}" style="width: 100%;height: 100%"
+                                             alt="First slide">
+                                    </div>
+                                {% else %}
+                                    <div class="item" style="height: 100%">
+                                        <img src="{{ MEDIA_URL }}{{ i.img }}" style="width: 100%;height: 100%"
+                                             alt="First slide">
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <a style="margin-top: 180px;width: 40px;height: 70px"
+                           class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"
+                          style="margin-left: -15px;margin-top: -15px"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a style="margin-top: 180px;width: 40px;height: 70px"
+                           class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"
+                          style="margin-right: -15px;margin-top: -15px"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                {% endif %}
+            </div>
+            <div style="float: left;width: 300px;height: 450px;background-color: white;overflow: hidden">
+                <ul style="margin-top: 30px;margin-left: 10px;overflow: hidden">
+                    <li style="height: 30px">
+                        <p style="float: left;width: 120px;font-size: 16px;height: 30px;line-height: 30px;background-color: #f0f0f0;font-family: Helvetica;">
+                            上线时间</p>
+                        <p style="float: left;background-color:#E0FFFF;height: 30px;line-height: 30px;font-size: 12px;width: 140px	">{{ game.g_time|date:"Y-m-d" }}</p>
+                    </li>
+                    <li style="height: 30px;margin-top: 10px">
+                        <p style="float: left;width: 120px;font-size: 16px;height: 30px;line-height: 30px;background-color: #f0f0f0;font-family: Helvetica;">
+                            用户喜欢</p>
+                        <p style="float: left;background-color:#E0FFFF;height: 30px;line-height: 30px;font-size: 12px;width: 140px	">{{ game.like.all|length }}</p>
+                    </li>
+                    <li style="height: 30px;margin-top: 10px">
+                        <p style="float: left;width: 120px;font-size: 16px;height: 30px;line-height: 30px;background-color: #f0f0f0;font-family: Helvetica;">
+                            运营平台</p>
+                        <p style="float: left;background-color:#E0FFFF;height: 30px;line-height: 30px;font-size: 12px;width: 140px	">{{ game.pintai }}</p>
+                    </li>
+                    <li style="height: 30px;margin-top: 10px">
+                        <p style="float: left;width: 120px;font-size: 16px;height: 30px;line-height: 30px;background-color: #f0f0f0;font-family: Helvetica;">
+                            所属公司</p>
+                        <p style="float: left;background-color:#E0FFFF;height: 30px;line-height: 30px;font-size: 12px;width: 140px	">{{ game.com }}</p>
+                    </li>
+                    <li style="height: 30px;margin-top: 10px">
+                        <p style="float: left;width: 120px;font-size: 16px;height: 30px;line-height: 30px;background-color: #f0f0f0;font-family: Helvetica;">
+                            游戏分类</p>
+                        <p style="float: left;background-color:#E0FFFF;height: 30px;line-height: 30px;font-size: 12px;width: 140px	">{{ game.type }}</p>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 50px;text-align: left;margin-left: 20px">
+                    {% for i in game.tag.all %}
+                        <span style="margin-left: 10px;border: 1px solid;padding: 3px ">{{ i }}</span>
+                    {% endfor %}
+                </div>
+                <div style="margin-top: 40px">
+                    {% if user in game.like.all %}
+                        <button id="unlinke" style="color: red">已喜欢</button>
+                    {% else %}
+                        <button id='like' style="color: red">喜欢</button>
+                    {% endif %}
+                </div>
+                <div style="margin-top: 20px;width: 150px;height:50px;margin-left: auto;margin-right: auto;background-color: #3b9cff;">
+                    <span style="font-size: 18px;line-height: 50px;color: white;font-weight: bold"
+                          role="button">游戏链接</span>
+                </div>
+            </div>
+            <br style="clear: both;">
+        </div>
+        <div style="width: 1000px;overflow: hidden">
+            <div style="width: 650px;margin-top: 50px;float: left">
+                <h4 style="font-weight: bold">游戏介绍</h4>
+                <div style="background-color: white;margin-top: 40px;word-break: break-all;word-wrap: break-word;width: 650px;">
+                    <p id="content"
+                       style="white-space:pre-wrap;width: 500px;line-height: 18px;margin-left: auto;margin-right: auto;padding-top: 50px;margin-bottom: 50px;text-align: left;">{{ game.info|slice:200 }}...</p>
+                    <button id="z"
+                            style="display: block;margin: auto;width: 80px;height: 30px;border-color: whitesmoke;border: 0.5px;">
+                        <i id="more" class="angle tiny double grey right icon">展开</i>
+                    </button>
+
+                    <br style="clear: both;">
+                </div>
+            </div>
+            <div style="float: left;margin-top: 50px;margin-left: 20px;background-color: white;width: 280px;padding-bottom: 50px">
+                <span style="font-size: 12px;font-weight: bold;margin-top: 20px;display: block">喜欢此游戏的人还喜欢</span>
+                {% for i in orther_game %}
+                    <div style="margin-top: 20px;border: 0.5px solid;width: 250px;margin-left: auto;margin-right: auto;padding-bottom: 20px;background-color: whitesmoke;border-color: #999999">
+                        <a style="float: left;margin-left: 10px;margin-top: 10px" href="/deatil/{{ i.id }}/"><img
+                                src="{{ MEDIA_URL }}{{ i.img }}" style="width: 80px;height: 60px"></a>
+                        <div style="float: left;margin-left: 20px;text-align: left;">
+                            <p style="margin-top: 5px">游戏名称:&nbsp;&nbsp;{{ i.name }}</p>
+                            <p style="margin-top: 5px">喜欢人数:&nbsp;{{ i.like.all|length }} &nbsp;</p>
+                            <p style="margin-top: 5px">游戏类型:&nbsp;&nbsp;{{ i.type }}</p>
+                        </div>
+                        <br style="clear:both;">
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div style="margin-top: 50px;width: 650px">
+            <h4 style="font-weight: bold">用户评论</h4>
+            <div style="margin-top: 50px;background-color: white;text-align: left">
+                <h4 style="font-weight: bold;margin-left: 50px;height: 100px;line-height: 100px">有
+                    <span style="color: red">{{ game.like.all|length }}</span>
+                    用户喜欢
+                    <span style="color: red;font-size: 26px;margin-left: 50px">{{ aver_score }}</span>
+                    分&nbsp;<span style="font-size: 12px">(平均评分)</span>
+                </h4>
+            </div>
+
+            <div id="check_div" style="background-color: white;margin-top: 40px;font-size: 18px;">
+                {% if user.username %}
+                    <div style="width: 90%;margin-left: auto;margin-right: auto;padding-top: 30px;">
+                        <div style="border: solid 1px;;background-color: rgb(244,244,244);border-color: rgb(228,228,228); ">
+                            <div style="border-radius: 5px;float: left;width: 25%;">
+                                <span style="width: 60px;height: 60px">
+                                    <img src="{{ MEDIA_URL }}{{ user.img }}"
+                                         style="margin-top: 50px;width: 60px;height:60px;border-radius: 50%;overflow: hidden ">
+                                </span>
+                                <h4 style="margin-top: 10px">{{ user.name }}</h4>
+                            </div>
+                            <div style="background-color: white;float:right;width:75%;border: solid 1px;border-color: rgb(228,228,228);border-radius: 4px;text-align: left">
+                                <label style="margin-top: 25px;margin-left: 70px">
+                                    <input type="checkbox" value="1" style="float: left">
+                                    <span style="float: left;margin-top: 2px;margin-left: 5px">1分</span>
+                                </label>
+                                <label style="margin-top: 25px;margin-left: 20px">
+                                    <input type="checkbox" value="2" style="float: left">
+                                    <span style="float: left;margin-top: 2px;margin-left: 5px">2分</span>
+                                </label>
+                                <label style="margin-top: 25px;margin-left: 20px">
+                                    <input type="checkbox" value="3" style="float: left">
+                                    <span style="float: left;margin-top: 2px;margin-left: 5px">3分</span>
+                                </label>
+                                <label style="margin-top: 25px;margin-left: 20px">
+                                    <input type="checkbox" value="4" style="float: left">
+                                    <span style="float: left;margin-top: 2px;margin-left: 5px">4分</span>
+                                </label>
+                                <label style="margin-top: 25px;margin-left: 20px">
+                                    <input type="checkbox" value="5" style="float: left" checked="checked">
+                                    <span style="float: left;margin-top: 2px;margin-left: 5px">5分</span>
+                                </label>
+                                <hr style="width: 80%;margin-left: auto;margin-right: auto">
+                                <span style="margin-left: 50px"></span>
+                                <textarea id="comm" name="ccc" placeholder="请输入您的评论"
+                                          style="width: 400px;margin-left: -20px;height:100px;margin-bottom: 50px;text-align: left;overflow: visible"></textarea>
+                                <button type="button" class="btn btn-primary" id="change"
+                                        style="display: block;margin-left: 35px">发布
+                                </button>
+                                <br style="clear: both;">
+                            </div>
+                            <br style="clear: both">
+                        </div>
+                    </div>
+                {% else %}
+                    请先登录再来评论!
+                {% endif %}
+                <br style="clear: both">
+            </div>
+            <div id='mes' style="margin-top: 50px;background-color: white;padding-top: 40px;padding-bottom: 50px">
+                {#                {% for i in mes %}#}
+
+                <br style="clear: both">
+            </div>
+            <button id="get_more"
+                    style="display: block;margin: auto;width: 80px;height: 30px;border-color: whitesmoke;border: 0.5px;">
+                <i id="more_com" class="angle tiny double grey right icon">加载更多</i>
+            </button>
+
+        </div>
+    </div>
+    <br style="clear: both;">
+    <div id="footer">
+
+        <div class="container">
+            <hr/>
+        </div> <!-- /container -->
+
+    </div>
+
+{% endblock %}
+
+
+

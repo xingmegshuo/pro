@@ -1,0 +1,532 @@
+@media screen and (max-width: 1150px) {
+    .header .head, .i_ma ul, .i_mb ul, .i_md .i_mdm, .i_me ul li dl, .i_mf .i_mfm, .i_mgm, .scd {
+        width: 960px;
+        margin: 0px auto;
+    }
+
+    .head .nav {
+        width: 555px;
+        margin-left: 25px;
+    }
+
+    .head .nav li {
+        margin-right: 3px;
+    }
+
+    .i_ma ul li {
+        width: 298px;
+        margin-right: 32px;
+    }
+
+    .i_mb ul li {
+        width: 303px;
+        margin-right: 25px;
+    }
+
+    .i_mb ul li img {
+        width: 303px;
+        height: 209px;
+    }
+
+    .i_mc ul li img {
+        height: 261px;
+    }
+
+    .i_mdm .i_mdl, .i_mdm .i_mdr {
+        width: 479px;
+    }
+
+    .i_mdm ul {
+        width: 449px;
+    }
+
+    .i_mdl ul li .nr {
+        width: 420px;
+    }
+
+    .i_me ul li dl dd {
+        margin-left: 60px;
+    }
+
+    .i_mgm ul li {
+        width: 294px;
+    }
+
+    .i_mgm .i_book li {
+        width: 470px;
+    }
+
+    .scd .scd_r {
+        width: 740px;
+    }
+
+    .scd .scd_r .r_top p {
+        font-size: 40px;
+    }
+
+    .scd .scd_r .scd_rm {
+        width: 700px;
+    }
+
+    .pro dl dd {
+        width: 450px;
+    }
+
+    .pro dl dd .title a {
+        font-size: 18px;
+    }
+
+    .demo ul li {
+        width: 342px;
+        margin-right: 15px;
+    }
+
+    .demo ul li embed {
+        width: 342px;
+        height: 259px;
+    }
+
+    .case dl dd {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .header .head, .i_ma ul, .i_mb ul, .i_md .i_mdm, .i_me ul li dl, .i_mf .i_mfm, .i_mgm, .scd {
+        width: 740px;
+    }
+
+    .head .nav {
+        display: none;
+        position: absolute;
+        background: #FFF;
+        top: 50px;
+        left: 0px;
+        z-index: 9999;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .head .nav li {
+        margin-right: 35px;
+    }
+
+    .head .nav li a {
+        color: #000;
+    }
+
+    .head {
+        position: relative;
+    }
+
+    .nav_m .n_icon {
+        display: block;
+    }
+
+    .head .nav_m {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        z-index: 99999;
+        width: 100%;
+    }
+
+    .head .lang {
+        margin-left: 30px;
+    }
+
+    .head .search {
+        float: left;
+        margin-left: 30px;
+    }
+
+    .head .lang, .head .search, .head .logo {
+        position: relative;
+        z-index: 999999;
+    }
+
+    .i_name {
+        font-size: 30px;
+    }
+
+    .i_name p {
+        font-size: 16px;
+    }
+
+    .i_ma ul li {
+        width: 233px;
+        margin-right: 20px;
+    }
+
+    .i_ma ul li .tu img, .i_ma ul li .tu {
+        width: 170px;
+        height: 170px;
+    }
+
+    .i_mb ul li {
+        width: 236px;
+        margin-right: 15px;
+    }
+
+    .i_mb ul li img {
+        width: 236px;
+        height: 162px;
+    }
+
+    .i_mc ul li img {
+        height: 203px;
+    }
+
+    .i_mdm .i_mdl, .i_mdm .i_mdr {
+        width: 100%;
+        margin-top: -1px;
+    }
+
+    .i_mdm ul {
+        width: 92%;
+    }
+
+    .i_mdl ul li .nr {
+        width: 90%;
+    }
+
+    .i_me ul li dl dd {
+        width: 545px;
+        margin-left: 40px;
+    }
+
+    .i_me ul li dl dt {
+        font-size: 30px;
+    }
+
+    .i_mgm ul li {
+        width: 236px;
+        margin-right: 15px;
+    }
+
+    .i_mgm .i_book li {
+        width: 360px;
+    }
+
+    .scd .scd_r {
+        width: 520px;
+    }
+
+    .scd .scd_r .scd_rm {
+        width: 490px;
+    }
+
+    .pro dl dt, .pro dl dt img {
+        width: 191px;
+        height: 131px;
+    }
+
+    .pro dl dd {
+        width: 285px;
+        margin-right: 0px;
+    }
+
+    .pro dl dd .title a {
+        font-size: 16px;
+    }
+
+    .demo ul li {
+        width: 240px;
+        margin-right: 10px;
+    }
+
+    .demo ul li embed {
+        width: 240px;
+        height: 181px;
+    }
+
+    .case dl dt, .case dl dt img {
+        width: 192px;
+        height: 125px;
+    }
+
+    .case dl dd {
+        width: 290px;
+    }
+
+    .case dl dd .des {
+        height: 60px;
+        line-height: 155%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header .head, .i_ma ul, .i_mb ul, .i_md .i_mdm, .i_me ul li dl, .i_mf .i_mfm, .i_mgm, .scd {
+        width: 480px;
+        margin: 0px auto;
+    }
+
+    .head .lang, .head .search {
+        margin-left: 12px;
+    }
+
+    .head .nav li {
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .head .nav li a {
+        display: block;
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    .i_ma ul li, .i_mb ul li {
+        width: 153px;
+        margin-right: 10px;
+    }
+
+    .i_ma ul li .tu img, .i_ma ul li .tu {
+        width: 140px;
+        height: 140px;
+    }
+
+    .i_mb ul li img {
+        width: 153px;
+        height: 105px;
+    }
+
+    .i_mc ul li img {
+        height: 131px;
+    }
+
+    .i_mb ul li .title {
+        font-size: 13px;
+    }
+
+    .i_mdm ul {
+        height: auto;
+    }
+
+    .i_me ul li dl dt {
+        font-size: 24px;
+        width: 85px;
+    }
+
+    .i_me ul li dl dd {
+        width: 345px;
+        margin-left: 20px;
+    }
+
+    .i_mgm ul li {
+        width: 150px;
+    }
+
+    .i_mgm .i_book li {
+        width: 230px;
+    }
+
+    .scd .scd_l {
+        width: 460px;
+    }
+
+    .scd .scd_r {
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 20px;
+    }
+
+    .scd .scd_r .r_top {
+        position: static;
+    }
+
+    .scd .scd_r .scd_rm {
+        width: 460px;
+    }
+
+    .pro dl dd {
+        width: 258px;
+    }
+
+    .scd .scd_r .r_top p {
+        font-size: 30px;
+    }
+
+    .demo ul li {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .demo ul li embed {
+        width: 460px;
+        height: 346px;
+    }
+
+    .case dl dd {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header .head, .i_ma ul, .i_mb ul, .i_md .i_mdm, .i_me ul li dl, .i_mf .i_mfm, .i_mgm, .scd {
+        width: 320px;
+        margin: 0px auto;
+    }
+
+    .head .lang {
+        float: right;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .header .head {
+        height: 105px;
+    }
+
+    .head .logo {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 9999;
+    }
+
+    .head .search {
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+
+    .head .nav_m {
+        top: 70px;
+    }
+
+    .header {
+        background: #FFF;
+    }
+
+    .head .nav li a, .head .lang .lang_m span {
+        color: #333;
+    }
+
+    .head .lang .lang_m em {
+        background: url(../images/icon1_1.png) no-repeat;
+    }
+
+    .nav_m .n_icon {
+        color: #000;
+        background: url(../images/nav_ico_a.png) no-repeat left center;
+    }
+
+    .head .nav {
+        top: 35px;
+    }
+
+    .banner {
+        padding-top: 105px;
+    }
+
+    .i_name {
+        font-size: 24px;
+    }
+
+    .i_ma ul li, .i_mb ul li {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .i_ma ul li .tu img, .i_ma ul li .tu {
+        width: 160px;
+        height: 160px;
+    }
+
+    .i_mb ul li img {
+        width: 320px;
+        height: 219px;
+    }
+
+    .i_mc ul li img {
+        height: 273px;
+    }
+
+    .m_bg_a {
+        background: url(../images/bg_b.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .i_me ul li dl dt {
+        width: 70px;
+        font-size: 20px;
+    }
+
+    .i_me ul li dl dt p {
+        font-size: 12px;
+    }
+
+    .i_me ul li dl dd {
+        width: 215px;
+        margin-left: 7px;
+    }
+
+    .i_mg {
+        background: url(../images/bg_d.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .i_mgm ul li {
+        width: 100%;
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+
+    .i_mgm ul li.one, .i_mgm ul li.one p {
+        text-align: center;
+    }
+
+    .i_mgm ul li.one img {
+        margin: 0px;
+    }
+
+    .i_mgm .i_book li {
+        width: 100%;
+    }
+
+    .scd .scd_l {
+        width: 300px;
+    }
+
+    .scd .scd_r .r_top p {
+        font-size: 20px;
+    }
+
+    .scd .scd_r .scd_rm {
+        width: 300px;
+    }
+
+    .pst p {
+        font-size: 16px;
+    }
+
+    .demo ul li embed {
+        width: 300px;
+        height: 225px;
+    }
+
+    .pro dl dd {
+        width: 100%;
+    }
+
+    .pro dl dt, .pro dl dt img {
+        width: 296px;
+        height: 203px;
+    }
+
+    .banner_s {
+        margin-top: 105px;
+    }
+
+    .case dl dd {
+        width: 100%;
+    }
+
+    .case dl dt, .case dl dt img {
+        width: 300px;
+        height: 195px;
+    }
+}
