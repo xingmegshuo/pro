@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39572b16-7e40-4f84-b4f4-f8999c99512e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/django/table_html/app/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/css/jquery.paginate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/css/jquery.yhhDataTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/js/jquery.paginate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/static/js/jquery.yhhDataTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/teamplate/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/table_html/teamplate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmeo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/bus_now.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/now.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/Bus_station/templates/st.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/website/html/ch_job.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/website/html/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_client/website/html/job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_face" beforeDir="false" afterPath="$PROJECT_DIR$/check_face" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_face/face_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_face/face_re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_face/x_g_stu_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_face/x_g_stu_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/deal_with.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/first/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/pro/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/pro/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/pro/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/pro/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/bootstrap-less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/404_500_errors.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/AdminLTE.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/bootstrap-social.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/boxes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/callout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/control-sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/direct-chat.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/dropdown.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/fullcalendar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/info-box.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/invoice.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/lockscreen.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/login_and_register.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/mailbox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/miscellaneous.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/products.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/sidebar-mini.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/_all-skins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-black-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-black.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-blue-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-blue.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-green-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-purple-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-purple.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-red-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-red.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-yellow-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/skins/skin-yellow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/small-box.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/table.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/timeline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/users-list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/build/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.common.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts-en.simple.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.common.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/echarts.simple.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/extension/bmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/extension/bmap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/extension/bmap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/extension/dataTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/extension/dataTool.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist/extension/dataTool.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/AdminLTE.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/_all-skins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/_all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-black-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-black-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-black.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-blue-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-blue-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-green-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-green-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-purple-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-purple-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-red-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-red-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-yellow-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-yellow-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/css/skins/skin-yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/avatar04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/boxed-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/boxed-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/cirrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/mestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/default-50x50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/photo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/photo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user1-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user3-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user4-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user5-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user6-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user7-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/img/user8-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/js/pages/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/dist1/js/pages/dashboard2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/adminlte-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/advice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/browsers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/dependencies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/implementations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/include/upgrade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/docs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/documentation/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/echarts-wordcloud.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/style3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/style4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/css/templatemo-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/img/letter_bg_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/img/letter_bg_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/img/letter_bg_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/img/pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/js/modernizr.custom.86080.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/login/js/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/UI/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/UI/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/UI/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/UI/modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/UI/sliders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/UI/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/charts/chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/charts/flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/charts/inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/charts/morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/invoice-print.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/lockscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/examples/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/forms/advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/forms/editors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/forms/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/layout/boxed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/layout/collapsed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/layout/fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/layout/rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/layout/top-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/mailbox/compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/mailbox/mailbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/mailbox/read-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/tables/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/tables/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/pages/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/bootstrap-slider/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/chartjs/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/chartjs/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/adapters/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/build-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/ckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/contents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/scayt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/dialog_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/dialog_ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/dialog_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/dialog_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/dialog_opera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/editor_gecko.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/editor_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/editor_ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/editor_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/editor_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/hidpi/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/hidpi/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/images/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/skins/moono/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ckeditor/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/bootstrap-colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/img/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/img/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/img/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/img/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/colorpicker/img/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/fill-both.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/examples/step-callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/images/filler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/col_filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/colvis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/new_init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/predefined.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/realtime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/reset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/server_side.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/examples/state_save.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/images/insert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/button_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/group_columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/jqueryui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/mouseover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/new_init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/restore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/title_callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/two_tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/colvis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/css_size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/index_column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/right_column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/examples/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/examples/html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/examples/scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/display-control/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/styling/compact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/styling/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/data/2500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/data/ssp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/large_js_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/examples/state_saving.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/images/loading-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/button_text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/collection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/defaults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/jqueryui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/multi_instance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/new_init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/pdf_message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/plug-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/select_column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/select_multi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/select_os.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/select_single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/examples/swf_path.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/collection_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/copy_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/csv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/csv_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/pdf_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/print_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/psd/collection.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/psd/printer.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/images/xls_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datatables/jquery.dataTables_themeroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.kr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.rs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/daterangepicker/daterangepicker-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/daterangepicker/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fastclick/fastclick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fastclick/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.colorhelpers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.canvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.crosshair.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.errorbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.fillbetween.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.navigate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.symbol.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.threshold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/flot/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fullcalendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fullcalendar/fullcalendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fullcalendar/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/line/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/iCheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/jquery.inputmask.date.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/jquery.inputmask.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/jquery.inputmask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/jquery.inputmask.numeric.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/jquery.inputmask.phone.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/jquery.inputmask.regex.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/phone-codes/phone-be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/phone-codes/phone-codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/input-mask/phone-codes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ionslider/img/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ionslider/img/sprite-skin-nice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ionslider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ionslider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ionslider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/ionslider/ion.rangeSlider.skinNice.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/jQuery/jQuery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/jQueryUI/jquery-ui-1.10.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/jQueryUI/jquery-ui-1.10.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/jvectormap/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/knob/jquery.knob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/morris/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/morris/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/morris/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/pace/pace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/slimScroll/jquery.slimscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/sparkline/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/timepicker/bootstrap-timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/timepicker/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/timepicker/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/plugins/timepicker/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/static/worldcloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/templates/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/templates/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/templates/mian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_mysql" beforeDir="false" afterPath="$PROJECT_DIR$/py_mysql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_mysql/tmysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_mysql/tmysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiyanlou/tori-rethinkdb-app" beforeDir="false" afterPath="$PROJECT_DIR$/shiyanlou/tori-rethinkdb-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiyanlou/tori-rethinkdb-app/templates/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shiyanlou/tori-rethinkdb-app/templates/todo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiyanlou/tori-rethinkdb-app/todo.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pro" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dmeo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>file</find>
+      <find>dist</find>
+      <find>Page H</find>
+      <find>index</find>
+      <find>mockjax</find>
+      <find>alert</find>
+      <find>AjaxPost</find>
+      <find>code</find>
+      <find>AnotherLink</find>
+      <find>block</find>
+      <find>Page Header</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pro/__init__.py" />
+        <option value="$PROJECT_DIR$/first/admin.py" />
+        <option value="$PROJECT_DIR$/templates/ajax.html" />
+        <option value="$PROJECT_DIR$/templates/xns.md" />
+        <option value="$PROJECT_DIR$/first/models.py" />
+        <option value="$PROJECT_DIR$/static/loginSpecial/js/controlLogin.js" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/mian.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/file.html" />
+        <option value="$PROJECT_DIR$/pro/urls.py" />
+        <option value="$PROJECT_DIR$/first/deal_with.py" />
+        <option value="$PROJECT_DIR$/pro/settings.py" />
+        <option value="$PROJECT_DIR$/templates/data.html" />
+        <option value="$PROJECT_DIR$/first/views.py" />
+        <option value="$PROJECT_DIR$/dmeo.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="302" />
+    <option name="y" value="139" />
+    <option name="width" value="1251" />
+    <option name="height" value="899" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_client" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/first" />
+      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39572b16-7e40-4f84-b4f4-f8999c99512e" name="Default Changelist" comment="" />
+      <created>1556885492823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556885492823</updated>
+      <workItem from="1556885497292" duration="165000" />
+      <workItem from="1556885823773" duration="477000" />
+      <workItem from="1556931972298" duration="938000" />
+      <workItem from="1556932991967" duration="44000" />
+      <workItem from="1556933103102" duration="13184000" />
+      <workItem from="1557486693456" duration="732000" />
+      <workItem from="1557489489017" duration="11000" />
+      <workItem from="1557490299001" duration="41766000" />
+      <workItem from="1557822924681" duration="21244000" />
+      <workItem from="1557932034687" duration="8000" />
+      <workItem from="1557932831164" duration="641000" />
+      <workItem from="1558060498854" duration="1230000" />
+      <workItem from="1558171193038" duration="923000" />
+      <workItem from="1558239362679" duration="13901000" />
+      <workItem from="1558363827396" duration="25910000" />
+      <workItem from="1558765701922" duration="2058000" />
+      <workItem from="1558771343410" duration="2206000" />
+      <workItem from="1558776739391" duration="2667000" />
+      <workItem from="1558842670019" duration="18609000" />
+      <workItem from="1560261910867" duration="3640000" />
+      <workItem from="1561734712071" duration="36000" />
+      <workItem from="1564069885469" duration="10000" />
+      <workItem from="1564305440080" duration="69000" />
+      <workItem from="1564305681304" duration="661000" />
+      <workItem from="1567780012849" duration="12000" />
+      <workItem from="1573582262363" duration="31000" />
+      <workItem from="1589448703497" duration="848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152021000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="302" y="139" width="1251" height="899" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49940687" visible="true" weight="0.2651704" />
+      <window_info id="Structure" order="1" sideWeight="0.5005931" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005931" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32955974" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28015563" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32955974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49940687" visible="true" weight="0.24189526" />
+      <window_info id="Structure" order="1" sideWeight="0.5005931" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005931" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32955974" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28015563" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32955974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pro/settings.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pro/wsgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/data.html</url>
+          <line>110</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/data.html</url>
+          <line>399</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/data.html</url>
+          <line>176</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.5/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/echarts.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/echarts.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/dist/extension/bmap.js" />
+    <entry file="file://$PROJECT_DIR$/static/stopwords.txt" />
+    <entry file="file://$PROJECT_DIR$/templates/ajax.html" />
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.5/site-packages/joblib/parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="672" selection-start-line="672" selection-end-line="673" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/xns.md" />
+    <entry file="file://$PROJECT_DIR$/first/admin.py" />
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/static/dist1/js/pages/dashboard.js" />
+    <entry file="file://$PROJECT_DIR$/static/build/less/skins/skin-red.less" />
+    <entry file="file://$PROJECT_DIR$/static/documentation/build/include/faq.html" />
+    <entry file="file://$PROJECT_DIR$/static/pages/UI/icons.html" />
+    <entry file="file://$PROJECT_DIR$/static/Gruntfile.js" />
+    <entry file="file://$PROJECT_DIR$/static/composer.json" />
+    <entry file="file://$PROJECT_DIR$/static/bower.json" />
+    <entry file="file://$PROJECT_DIR$/static/plugins/flot/excanvas.js" />
+    <entry file="file://$PROJECT_DIR$/static/login/js/metro.js" />
+    <entry file="file://$PROJECT_DIR$/static/loginSpecial/js/metro.js" />
+    <entry file="file://$PROJECT_DIR$/static/loginSpecial/layui/layui.js" />
+    <entry file="file://$PROJECT_DIR$/static/loginSpecial/js/jquery.mockjax.js" />
+    <entry file="file://$PROJECT_DIR$/static/loginSpecial/js/controlLogin.js" />
+    <entry file="file://$PROJECT_DIR$/static/login/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/static/worldcloud.js" />
+    <entry file="file://$PROJECT_DIR$/static/echarts-wordcloud.min.js" />
+    <entry file="file://$PROJECT_DIR$/templates/file.html" />
+    <entry file="file://$PROJECT_DIR$/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/first/models.py" />
+    <entry file="file://$PROJECT_DIR$/first/views.py" />
+    <entry file="file://$PROJECT_DIR$/first/tests.py" />
+    <entry file="file://$PROJECT_DIR$/pro/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/pro/settings.py" />
+    <entry file="file://$PROJECT_DIR$/templates/mian.html" />
+    <entry file="file://$PROJECT_DIR$/templates/login.html" />
+    <entry file="file://$PROJECT_DIR$/templates/data.html" />
+    <entry file="file://$PROJECT_DIR$/first/deal_with.py" />
+    <entry file="file://$PROJECT_DIR$/pro/urls.py" />
+    <entry file="file://$PROJECT_DIR$/dmeo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

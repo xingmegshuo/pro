@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Behavior_recognition/tf_model/models" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/check_face" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py_mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shiyanlou/tori-rethinkdb-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work" vcs="Git" />
+  </component>
+</project>

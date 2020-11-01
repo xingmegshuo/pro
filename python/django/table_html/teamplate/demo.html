@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+
+</head>
+<body>
+<script>
+    var data;
+    var url = 'http://127.0.0.1:8000/com/?fromat=json';
+
+    $.ajax({
+        method: 'Get',
+        url: url,
+        dataType: 'json',
+        async: false,
+        success: function (info) {
+           data = info;
+
+        }
+    })
+    console.log(data)
+</script>
+
+</body>
+</html>

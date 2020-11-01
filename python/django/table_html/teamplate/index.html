@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js">
+    </script>
+    <style>
+        th {
+            height: 30px
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/jquery.paginate.css"/>
+    <link rel="stylesheet" href="/static/css/jquery.yhhDataTable.css"/>
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.paginate.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.yhhDataTable.js"></script>
+{#    <script type="text/javascript" src="/static/js/index.js"></script>#}
+
+
+    <link rel="stylesheet" type="text/css" href="http://sandbox.runjs.cn/uploads/rs/238/n8vhm36h/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://sandbox.runjs.cn/uploads/rs/238/n8vhm36h/bootstrap-responsiv.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://sandbox.runjs.cn/uploads/rs/238/n8vhm36h/dataTables.bootstra.css">
+
+</head>
+<body>
+<table width="800" border="1" cellspacing="0" align="center" id="testtable2"
+       class="table table-striped table-bordered table-hover datatable">
+
+    <tr bgcolor="#add8e6">
+        <td style="border-right-style: none" height="20px" colspan="9">我的表格</td>
+    </tr>
+    <tr>
+        <th>选项</th>
+        <th>主键</th>
+        <th>名称</th>
+        <th>编号</th>
+        <th>类型</th>
+        <th>单位</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>备注</th>
+    </tr>
+
+
+</table>
+
+
+</body>
+<script>
+    var f = false;
+
+    function then(id) {
+        {#console.log(document.getElementById(id));#}
+        if (f == false) {
+            document.getElementsByClassName(id)[0].innerHTML = '-';
+            document.getElementById(id).style.display = '';
+            f = true;
+        } else {
+            document.getElementsByClassName(id)[0].innerHTML = '+';
+            document.getElementById(id).style.display = 'none';
+            f = false
+        }
+    }
+
+    var url = 'http://127.0.0.1:8000/com/?fromat=json';
+    var value = "";
+    $.ajax({
+        method: 'GET',
+        url: url,
+        dataType: 'json',
+        success: function (data) {
+            {#value = data;#}
+            var table = document.getElementById("testtable2");
+            for (var i = 0; i < data.count; i++) {
+                var row = table.insertRow(table.rows.length);
+                var c1 = row.insertCell(0);
+                {#"<button id=“+data.results[i].id+” onclick=“+then(data.results[i].id)+”>+</button>"#}
+                c1.innerHTML = "<button class = " + data.results[i].id + " onclick=then(" + data.results[i].id + ")>+</button>"
+                var c2 = row.insertCell(1);
+                c2.innerHTML = data.results[i].id;
+                var c3 = row.insertCell(2);
+                c3.innerHTML = data.results[i].name;
+                var c4 = row.insertCell(3);
+                c4.innerHTML = data.results[i].number;
+                var c5 = row.insertCell(4);
+                c5.innerHTML = data.results[i].n_type;
+                var c6 = row.insertCell(5);
+                c6.innerHTML = data.results[i].unit;
+                var c7 = row.insertCell(6);
+                c7.innerHTML = data.results[i].unit_price;
+                var c8 = row.insertCell(7);
+                c8.innerHTML = data.results[i].quantity;
+                var c9 = row.insertCell(8);
+                c9.innerHTML = data.results[i].note;
+                var b = table.insertRow(table.rows.length);
+                var info_value = '';
+
+                $.ajax({
+                    method: 'Get',
+                    url: data.results[i].info,
+                    dataType: 'json',
+                    async: false,
+
+                    success: function (info) {
+                        info_value = info
+                        {#console.log(b)#}
+
+                    }
+                });
+                b.innerHTML =
+                    {#"        <tr >\n" +#}
+                    "            <td colspan=\"9\" id=" + data.results[i].id + ">\n" +
+                    "            <table border=\"1\" cellspacing=\"0\" align=\"center\" width=\"500\" style=\"margin-top: 15px \" >\n" +
+                    "                <tr>\n" +
+                    "                    <th>cpu</th>\n" +
+                    "                    <th>硬盘</th>\n" +
+                    "                    <th>显卡</th>\n" +
+                    "                    <th>内存</th>\n" +
+                    "                </tr>\n" +
+                    "                <tr>\n" +
+                    "                    <th>" + info_value.cpu + "</th>\n" +
+                    "                    <th>" + info_value.hard_disk + "</th>\n" +
+                    "                    <th>" + info_value.video_memory + "</th>\n" +
+                    "                    <th>" + info_value.memory + "</th>\n" +
+                    "\n" +
+                    "                </tr>\n" +
+                    "            </table>\n" +
+                    "            </td>\n"
+                {#"        </tr>"#}
+                {#console.log(document.getElementById(data.results[i].id));#}
+
+
+                document.getElementById(data.results[i].id).style.display = 'none';
+
+
+            }
+            ;
+        },
+    {#error: function () {#}
+    {#    alert("数据加载失败");#}
+    {#}#}
+    }
+    )
+    ;
+
+
+</script>
+
+
+</html>

@@ -1,0 +1,24 @@
+    var url = 'http://127.0.0.1:8000/com/?fromat=json';
+    var value = "";
+   $.ajax({
+       method: 'GET',
+       url: url ,
+       dataType: 'json' ,
+       success: function (data) {
+           value = data;
+       },
+       error: function() {
+          alert("数据加载失败");
+        }
+    });
+    var table=document.getElementById("table1");
+            for(var i=0;i<value.count;i++){
+                            var row=table.insertRow(table.rows.length);
+                            var c1=row.insertCell(0);
+                            c1.innerHTML= '+';
+                            var c2=row.insertCell(1);
+                            c2.innerHTML=data[i].id;
+                            var c3=row.insertCell(2);
+                            c3.innerHTML=data[i].Quantity;
+                        }
+            
