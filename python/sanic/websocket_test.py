@@ -31,10 +31,10 @@ loop = asyncio.get_event_loop()
 # 任务列表
 tasks = []
 # 设置最大同时连接数
-sem = asyncio.Semaphore(2000)
+sem = asyncio.Semaphore(500)
 # 模拟多少个请求
 for i in range(1000):
-    task = asyncio.ensure_future(echo(sem, 'ws://localhost:8765', i))
+    task = asyncio.ensure_future(echo(sem, 'ws://localhost:4321/', i))
     tasks.append(task)
 
 # 执行任务

@@ -20,5 +20,5 @@ async def echo(websocket, path):
 
 print("服务开启：")
 asyncio.get_event_loop().run_until_complete(
-    websockets.serve(echo, 'localhost', 8765))
+    websockets.serve(echo, 'localhost', 4321))
 asyncio.get_event_loop().run_forever()
