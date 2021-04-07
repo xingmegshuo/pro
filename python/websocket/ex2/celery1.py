@@ -9,39 +9,26 @@
 """
 
 
+from celery.schedules import timedelta
 from celery import Celery
-import time
-import socket
-
-app = Celery('demo', broker='redis://127.0.0.1:6379/0',
-             backend='redis://127.0.0.1:6379/0')
 
 
-def get_host_ip():
-    """
-    查询本机ip地址
-    :return: ip
-    """
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(('8.8.8.8', 80))
-        ip = s.getsockname()[0]
-    finally:
-        s.close()
-    return ip
+class Config:
+    BROKER_URL = 'redis://192.168.0.15:6379/5'
+    CELERY_RESULT_BACKEND = 'redis://192.168.0.15:6739/6'
+    CELERY_TIMEZONE = 'Asia/Shanghai'
 
 
-@app.task
+app = Celery('celery-tasks')
+app.config_from_object(Config)
+
+
+@app.task(queue='for_task_collect')  # 第一个队列
+def println():
+    print("thanks")
+    return "success"
+
+
+@app.task(queue='for_task_add')  # 第二个队列
 def add(x, y):
-    time.sleep(3)  # 模拟耗时操作
-    s = x + y
-    print("主机IP {}: x + y = {}".format(get_host_ip(), s))
-    return s
-
-
-if __name__ == '__main__':
-    app.start()
-    # for i in range(10):
-    #     import random
-    #     b = random.randint(1, 100000)
-    #     add.delay(i, b)
+    print(x+y, "result")
