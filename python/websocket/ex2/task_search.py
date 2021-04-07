@@ -9,12 +9,13 @@
 """
 
 
-from celery1 import add  # 导入我们的任务函数add
+from celery1 import add, println  # 导入我们的任务函数add
 import time
 
-for i in range(1,100):
+for i in range(1, 100):
+    println.delay()
     result = add.delay(i, i*2)  # 异步调用，这一步不会阻塞，程序会立即往下运行
-    while not result.ready():  # 循环检查任务是否执行完毕   
+    while not result.ready():  # 循环检查任务是否执行完毕
         print(time.strftime("%H:%M:%S"))
         time.sleep(1)
     print(result.get())  # 获取任务的返回结果

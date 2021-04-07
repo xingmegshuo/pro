@@ -31,4 +31,5 @@ def println():
 
 @app.task(queue='for_task_add')  # 第二个队列
 def add(x, y):
-    print(x+y, "result")
+    print(x + y, "result")
+    return x + y
