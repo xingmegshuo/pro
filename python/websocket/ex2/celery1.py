@@ -24,8 +24,8 @@ app.config_from_object(Config)
 
 
 @app.task(queue='for_task_collect')  # 第一个队列
-def println():
-    print("thanks")
+def println(name):
+    print("thanks",name)
     return "success"
 
 

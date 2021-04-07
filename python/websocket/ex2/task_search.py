@@ -11,5 +11,5 @@
 
 from celery1 import add, println  # 导入我们的任务函数add
 for i in range(1, 100):
-    println.delay()
-    add.delay(i, i*2)  # 异步调用，这一步不会阻塞，程序会立即往下运行
+    println.delay(i)
+    add.delay(i, 10)
