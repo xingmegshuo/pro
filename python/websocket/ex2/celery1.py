@@ -14,8 +14,8 @@ from celery import Celery
 
 
 class Config:
-    BROKER_URL = 'redis://192.168.0.15:6379/5'
-    CELERY_RESULT_BACKEND = 'redis://192.168.0.15:6739/6'
+    BROKER_URL = 'redis://192.168.0.15:6379/0'
+    # CELERY_RESULT_BACKEND = 'redis://192.168.0.15:6739/6'
     CELERY_TIMEZONE = 'Asia/Shanghai'
 
 
