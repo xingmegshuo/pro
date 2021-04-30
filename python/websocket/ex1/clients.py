@@ -11,31 +11,28 @@
 
 import asyncio
 import websockets
+import json
+import time
 
 
 async def hello(uri, i):
     async with websockets.connect(uri) as websocket:
-        # 发送给服务端我是哪一个连接
-        await websocket.send(str(i))
-        # 服务端返回消息
-        recv_text = await websocket.recv()
-        print(recv_text)
+        await websocket.send("look")
+        user = await websocket.recv()
+        print(user, '个用户')
+        if int(user) > 1:
+            print("happy for you ")
+        b = await websocket.recv()
+        print(b)
+        time.sleep(10)
+        await websocket.send("exit")
 
 
-async def echo(sem, uri, i):
-    async with sem:
-        await hello(uri, i)
+async def echo(uri, i):
+    await hello(uri, i)
 
 
 loop = asyncio.get_event_loop()
-# 任务列表
-tasks = []
-# 设置最大同时连接数
-sem = asyncio.Semaphore(2000)
-# 模拟多少个请求
-for i in range(1000):
-    task = asyncio.ensure_future(echo(sem, 'ws://localhost:8765', i))
-    tasks.append(task)
 
-# 执行任务
-loop.run_until_complete(asyncio.wait(tasks))
+loop.run_until_complete(echo('ws://localhost:4321', 'bob'))
+# loop.run_forever()

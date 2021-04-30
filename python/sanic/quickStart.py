@@ -12,9 +12,9 @@ from sanic.response import json
 app = Sanic("hello")
 
 
-@app.route('/')
+@app.route('/auth')
 async def test(request):
     return json({"key": "value"})
 
 if __name__ == '__main__':
-    app.run("0.0.0.0", port=8000)
+    app.run("0.0.0.0", port=8060)
