@@ -12,7 +12,7 @@ invoke==1.2.0
 ipython==7.2.0
 ipython-genutils==0.2.0
 jedi==0.13.1
-mysql-connector-python==8.0.13
+mysql-connector-python==8.0.14
 paramiko==2.4.2
 parso==0.3.1
 pexpect==4.6.0
